@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    min-width: 100vh;
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #006D77;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    padding: 8px;
+    margin: 0;
+}
+
+.hero {
+    background-color: #EDF6F9;
+    height: 100px;
+}
+
+.info {
+    background-color: orange;
+    height: 100px;
+}
+
+.quote {
+    background-color: green;
+    height: 100px;
+}
+
+.cta {
+    background-color: pink;
+    height: 100px;
+}
+
+.footer {
+    background-color: grey;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px;
+}
+
+li {
+    font-size: 20px;
+    text-decoration: none;
+}
