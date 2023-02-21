@@ -2,11 +2,15 @@ body {
     margin: 0;
     min-width: 100vh;
     font-family: "Roboto", sans-serif;
+    background-color: #FDFFFF;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    background-color: #006D77;
+    background-color: #FDFFFF;
     display: flex;
+    flex-shrink:0;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
@@ -19,10 +23,32 @@ body {
     margin: 0;
 }
 
-.hero {
-    background-color: #EDF6F9;
-    height: 100px;
+.links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #094074;
 }
+
+.hero {
+    background-color: #14213D;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.hero-photo {
+    width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+.hero-btn {
+    padding: 20px 30px;
+}
+
 
 .info {
     background-color: orange;
@@ -51,8 +77,11 @@ ul {
     gap: 16px;
 }
 
-a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #EDF6F9;
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #FDFFFF;
 }
