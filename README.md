@@ -11,4 +11,9 @@ Study.jpg: Photo by <a href="https://unsplash.com/@imkirk?utm_source=unsplash&ut
   1. Hero font
   2. Hero buttons
 
-Section 2:
+Section 2: Info Boxes
+
+
+
+Section 3: Quotes
+Testimonials
