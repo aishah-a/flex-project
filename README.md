@@ -15,7 +15,6 @@ Study.jpg: Photo by <a href="https://unsplash.com/@imkirk?utm_source=unsplash&ut
 
   Section 2: Info Boxes
   1. List style image
-  2. Add hover to mem-btns.
   3. Some features unavailable for basic mode
 
 Section 3: Quotes

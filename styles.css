@@ -157,6 +157,11 @@ h1 {
     border: none;
 }
 
+.card-btn:hover {
+    background-color: #8DB0B9;
+    color: #FDFFFF;
+  }
+
 /* testimonials */
 
 .testimonials {
