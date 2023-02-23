@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-    background-image: url(assets/bg-hero.png);
+    background-image: url(assets/bg-hero2.png);
     background-color: #14213D;
     height: 100%;
     background-repeat: no-repeat;
@@ -43,22 +43,23 @@ body {
     flex: 1 0;
     width: 100%;
     height: auto;
-    align-items: center;
     justify-content: center;
 }
 
 .hero-text {
-    font-size: 40px;
+    font-size: 30px;
     color: #FDFFFF;
-    padding: 15px 5px;
-    margin: 2px;
-    padding: 15px;
+    width: 50%;
+    padding: 100px 40px 5px;
+    margin-left: 10px;
 }
 
 .hero-lang {
-    padding: 30px;
-    margin: 5px;
+    padding: 55px;
+    margin: 10px;
     color: #FDFFFF;
+    align-items: center;
+
 }
 
 .info {
@@ -68,7 +69,7 @@ body {
 }
 
 .quote {
-    background-color: #FDFFFF;
+    background-color: #FFFCFF;
     height: 100px;
 }
 
@@ -87,4 +88,9 @@ ul {
     margin: 8px;
     display: flex;
     gap: 16px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0px;
 }
