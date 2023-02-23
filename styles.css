@@ -45,14 +45,16 @@ body {
     padding: 10px;
 }
 
-.hero-btn {
+.hero-lang {
     padding: 20px 30px;
+    color: #FDFFFF;
 }
 
 
 .info {
     background-color: orange;
     height: 100px;
+    display: flex;
 }
 
 .quote {
