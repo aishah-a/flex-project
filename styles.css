@@ -29,31 +29,42 @@ body {
     color: #094074;
 }
 
+.hero {
+    background-image: url(assets/bg-hero.png);
+    background-color: #14213D;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .hero-flex {
     display: flex;
     flex-direction: column;
+    flex: 1 0;
+    width: 100%;
+    height: auto;
     align-items: center;
+    justify-content: center;
 }
 
-.hero-image {
-    background-image: url(assets/bg-hero.png);
-    background-color: #14213D;
-    height: 500px;
-    flex-shrink: 0;
+.hero-text {
+    font-size: 40px;
+    color: #FDFFFF;
+    padding: 15px 5px;
+    margin: 2px;
+    padding: 15px;
 }
 
 .hero-lang {
-    padding: 20px 30px;
+    padding: 30px;
+    margin: 5px;
     color: #FDFFFF;
-    flex-shrink: 0;
 }
 
 .info {
     background-image: url(assets/bg-info.png);
     background-color: #FDFFFF;
     height: 500px;
-    display: flex;
-    flex: 1;
 }
 
 .quote {
@@ -76,13 +87,4 @@ ul {
     margin: 8px;
     display: flex;
     gap: 16px;
-}
-
-
-
-h1 {
-    font-size: 48px;
-    font-weight: 600;
-    text-align: center;
-    color: #FDFFFF;
 }
