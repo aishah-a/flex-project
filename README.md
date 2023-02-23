@@ -11,11 +11,12 @@ Study.jpg: Photo by <a href="https://unsplash.com/@imkirk?utm_source=unsplash&ut
   Section 1: Hero
   1. Font
   2. Style dropdown and button
-  3. Add languageflags to side
+  3. Add language flags under selection bar
 
   Section 2: Info Boxes
   1. List style image
-  2. Style mem-btn "sign up" and "view pricing"
+  2. Add hover to mem-btns.
+  3. Some features unavailable for basic mode
 
 Section 3: Quotes
 Testimonials
