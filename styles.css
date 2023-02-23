@@ -140,6 +140,7 @@ h1 {
     margin: 8px;
 }
 
+
 .mem-type {
     padding: 10px;
     margin: 5px;
@@ -160,7 +161,7 @@ h1 {
 .card-btn:hover {
     background-color: #8DB0B9;
     color: #FDFFFF;
-  }
+}
 
 /* testimonials */
 
