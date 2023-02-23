@@ -8,8 +8,9 @@ Study.jpg: Photo by <a href="https://unsplash.com/@imkirk?utm_source=unsplash&ut
 
   To Do:
   Hero:
-  1. Hero font
-  2. Hero buttons
+  1. Font
+  2. Style dropdown and button
+  3. Add flags to side
 
 Section 2: Info Boxes
 
