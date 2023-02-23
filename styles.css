@@ -7,13 +7,6 @@ body {
     flex-direction: column;
 }
 
-ul {
-    list-style-type: none;
-    margin: 8px;
-    display: flex;
-    gap: 16px;
-}
-
 h1 {
     padding: 10px;
     margin: 0px;
@@ -43,10 +36,17 @@ h1 {
     color: #094074;
 }
 
+.header ul {
+    list-style-type: none;
+    margin: 8px;
+    display: flex;
+    gap: 16px;
+}
+
 /* hero*/
 
 .hero {
-    background-image: url(assets/bg-hero2.png);
+    background-image: url(assets/bg-hero.png);
     background-color: #14213D;
     height: 100%;
     background-repeat: no-repeat;
@@ -81,25 +81,65 @@ h1 {
 }
 
 
-/*information*/
+/*membership*/
 
 .membership {
-    background-color: #FDFFFF;
-    height: 500px;
+    background-color: #E5E5E5;
+    background-image: url(assets/bg-mem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.mem-info {
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.mem-info h2,
+.mem-info p {
+    margin: 10px;
+    color: #FDFFFF;
 }
 
 .cards {
     display: flex;
+    flex: 1 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
 }
-
 
 .card {
-    background: white;
-    width: 200px;
-    height: auto;
+    background-color: #E5E5E5;
+    width: 500px;
+    height: 700px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 3px;
+    border-style: solid;
+    border-color: #14213D;
 }
 
+.card-container {
+    padding: 30px 30px 30px 50px;
+    text-align: center;
+}
 
+.card-container ul {
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-container li {
+    padding: 5px;
+    margin: 8px;
+}
 
 
 /*
