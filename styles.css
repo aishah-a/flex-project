@@ -48,7 +48,7 @@ h1 {
 .hero {
     background-image: url(assets/bg-hero.png);
     background-color: #14213D;
-    height: 100vh;
+    height: 780px;
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -140,12 +140,10 @@ h1 {
     margin: 8px;
 }
 
-
 .mem-type {
     padding: 10px;
     margin: 5px;
 }
-
 
 .card-btn {
     padding: 10px;
@@ -163,29 +161,81 @@ h1 {
     color: #FDFFFF;
 }
 
+
 /* testimonials */
 
 .testimonials {
-    background-color: lightpink; /* change to orange once complete*/
-    height: 400px;
-    padding: 50px;
+    background-color: #FCA311; /* change to orange once complete*/
+    padding: 40px;
+    height: 100%;
+}
+
+.testim-title {
+    text-align: center;
+    font-size: 20px;
+    color: #14213D;
 }
 
 .users {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    flex: 1 0;
+    flex-wrap: wrap;
 }
 
-/*
-.cta {
-    background-color: #14213D;
-    height: 100px;
+.testim {
+    padding: 40px;
+    margin: 5px;
+    border: 10px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 900;
 }
+
+/* cta */
+
+.cta-content {
+    border: 2px;
+    border-style: solid;
+    border-color: #FDFDFF
+}
+
+.cta,
+.cta-info {
+    background-color: #14213D;
+    height: 100%; 
+    color: #FDFDFF;
+    padding: 20px;
+}
+
+.cta-info {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cta-btn {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.cta-btn button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+/* footer */
 
 .footer {
-    background-color: #FDFFFF;
-    height: 100px;
+    background-color: #EBEBEB;
+    height: 40px;
+    display: flex;
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
-
-*/
 
